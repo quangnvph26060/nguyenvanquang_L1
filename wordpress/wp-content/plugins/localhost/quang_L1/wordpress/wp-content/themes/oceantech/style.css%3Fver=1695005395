@@ -1,0 +1,13 @@
+
+/*
+Theme Name: OceanTech Theme
+Theme URI: http://wordpress.org/
+Description: Test Blog
+Version: 1.0
+Author:  Nguyễn Văn Quang
+Tags: powerful, cheat, sheet
+*/
+h1{
+    /* font-size: 30px; */
+    /* color: red; */
+}

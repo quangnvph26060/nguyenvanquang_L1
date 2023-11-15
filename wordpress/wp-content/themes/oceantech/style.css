@@ -1,0 +1,77 @@
+
+/*
+Theme Name: OceanTech Theme
+Theme URI: http://wordpress.org/
+Description: Test Blog
+Version: 1.0
+Author:  Nguyễn Văn Quang
+Tags: powerful, cheat, sheet
+*/
+h1{
+    font-size: 30px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+article{
+            border: 1px solid #ccc;
+}
+
+
+/* sản phẩm  */
+.my-plugin-content{
+    display: flex;
+    justify-content: center;
+}
+.product-wrapper {
+    display: inline-block;
+    width: 200px; /* Định dạng kích thước khung sản phẩm */
+    margin: 10px; /* Tạo khoảng cách giữa các khung sản phẩm */
+    border: 1px solid #ccc; /* Tạo viền cho khung sản phẩm */
+    padding: 10px; /* Tạo khoảng cách bên trong khung sản phẩm */
+    text-align: center; /* Căn giữa nội dung trong khung sản phẩm */
+  }
+  
+  .product-wrapper a {
+    text-decoration: none; /* Loại bỏ gạch chân đường dẫn */
+    color: #333; /* Màu chữ cho đường dẫn */
+  }
+  
+  .product-wrapper img {
+    width: 100px; /* Định dạng kích thước hình ảnh */
+    height: 100px;
+    margin-bottom: 10px; /* Tạo khoảng cách dưới hình ảnh */
+  }
+  
+  .product-wrapper h2 {
+    margin: 0; /* Loại bỏ khoảng cách mặc định */
+    font-size: 16px; /* Định dạng kích thước chữ cho tên sản phẩm */
+  }
+  /* menu */
+  .navigation-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .navigation-menu li {
+    margin-right: 10px;
+  }
+  
+  .navigation-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .navigation-menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navigation-menu li a:hover {
+    color: #ff0000; /* Màu chữ khi hover */
+  }

@@ -1,0 +1,1 @@
+console.log('đây là js trong plugin');
